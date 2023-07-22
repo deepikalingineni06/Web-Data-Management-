@@ -1,0 +1,27 @@
+/* Name: BODAPATLA JEEVAN REDDY
+    ID: 1001949287   
+   Name: LINGINENI SAI DEEPIKA
+     ID: 1001924255 */
+
+body {
+  padding: 1em;
+}
+
+.header {
+  width: 100%;
+}
+.header h2 {
+  margin: 0 530px 80px 530px;
+}
+.parameters {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 30px;
+  margin: 0 auto;
+}
+.box {
+  min-height: 40px;
+  width: fit-content;
+  border: 2px solid black;
+  padding: 1em;
+}

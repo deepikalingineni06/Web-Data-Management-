@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/signup.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://apis.google.com/js/api:client.js"></script>
+
+    <!-- end -->
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>USER LOGIN</h1>
+      <form id="form" action="user.html">
+        <!-- name -->
+        <div class="form-group">
+          <input type="text" id="name" placeholder="Name" />
+        </div>
+        <!-- password -->
+        <div class="form-group">
+          <input type="password" id="password1" placeholder="Password" />
+        </div>
+        <button type="submit">SIGN IN</button>
+        <p>
+          <small style="text-align: center"
+            ><a href="Superadmin.html" style="color: rgb(54, 54, 54)"
+              >Super Admin Login</a
+            ></small
+          >
+        </p>
+
+        <p style="margin: 0">
+          <small style="text-align: center"
+            ><a href="Manager.html" style="color: rgb(54, 54, 54)"
+              >Manager Login</a
+            ></small
+          >
+        </p>
+
+        <p>
+          <small style="text-align: center"
+            ><a href="signup.html" style="color: rgb(54, 54, 54)"
+              >New User? Sign up Here</a
+            ></small
+          >
+        </p>
+      </form>
+
+      <div
+        style="
+          width: 85%;
+          height: 20px;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+          text-align: center;
+          margin-top: 30px; ;
+        "
+      >
+        <span
+          style="
+            font-size: 20px;
+            background-color: #fff;
+            font-family: Times, serif;
+            padding: 0 10px;
+            color: rgba(0, 0, 0, 0.4);
+          "
+        >
+          OR
+          <!--Padding is optional-->
+        </span>
+      </div>
+
+      <!-- google sign in starts from here -->
+      <div class="g-sign-in-button">
+        <div class="content-wrapper">
+          <div class="logo-wrapper">
+            <img
+              src="https://developers.google.com/identity/images/g-logo.png"
+            />
+          </div>
+          <span class="text-container">
+            <span>Sign in with Google</span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- Script -->
+  </body>
+</html>

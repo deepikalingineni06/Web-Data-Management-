@@ -1,0 +1,87 @@
+/* Name: BODAPATLA JEEVAN REDDY
+    ID: 1001949287   
+   Name: LINGINENI SAI DEEPIKA
+     ID: 1001924255 */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@700&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.outer {
+  margin: 12px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.overlay {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+.overlay h2 {
+  font-size: 150px;
+  font-family: "Dancing Script", cursive;
+  opacity: 0.2;
+  pointer-events: none;
+}
+.info {
+  width: 50%;
+}
+.info h5 {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.info p {
+  font-size: 18px;
+}
+
+.contact-form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-form input {
+  height: 35px;
+  width: 350px;
+  border-radius: 4px;
+  padding: 0.8em;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+  border: none;
+  margin: 12px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.contact-form textarea {
+  margin-bottom: 20px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.contact-form button {
+  background-color: #6c63ff;
+  padding: 0.4em 0.8em;
+  font-size: 22px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  transition: all.5s ease-in;
+  cursor: pointer;
+  color: white;
+}
+
+.contact-form button:hover {
+  transform: translateY(-5px);
+}
